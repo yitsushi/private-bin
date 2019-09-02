@@ -2,7 +2,7 @@ FROM alpine:3.5
 
 LABEL maintainer="Balazs Nadasdi <balazs.nadasdi@cheppers.com>"
 
-ENV PRIVATE_BIN_VERSION=1.2.1
+ENV PRIVATE_BIN_VERSION=1.3
 
 RUN apk add --no-cache curl \
       php7 apache2 php7-apache2 \
